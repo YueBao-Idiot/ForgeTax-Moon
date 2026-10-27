@@ -1,0 +1,28 @@
+# 构建产物
+bin/
+obj/
+*.pdb
+*.mdb
+*.user
+
+# 本机临时文件
+.shots/
+*.log
+*.tmp
+
+# 游戏相关（仓库里不应包含游戏本体文件）
+ForgeTax_Data/
+MelonLoader/
+MonoBleedingEdge/
+Mods/
+UserData/
+UserLibs/
+Plugins/
+version.dll
+ForgeTax.exe
+UnityPlayer.dll
+UnityCrashHandler64.exe
+dstorage*.dll
+D3D12/
+
+# 说明：dist/MoonInstaller.exe 是发布用的单文件安装器，保留在仓库里
